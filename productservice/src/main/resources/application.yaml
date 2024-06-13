@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: product-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/turkcellproje
+    username: postgres
+    password: 12345
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+
+server:
+  port: 8082
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+  registerWithEureka: true
+  fetchRegistry: true

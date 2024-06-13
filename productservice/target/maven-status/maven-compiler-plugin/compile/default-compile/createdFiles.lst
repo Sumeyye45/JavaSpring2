@@ -1,0 +1,10 @@
+com\turkcell\productservice\dtos\requests\AddProductRequest.class
+com\turkcell\productservice\entities\Product.class
+com\turkcell\productservice\Services\mappers\ProductMapper.class
+com\turkcell\productservice\Services\abstracts\ProductServices.class
+com\turkcell\productservice\Services\concretes\ProductServicesImpl.class
+com\turkcell\productservice\Services\mappers\ProductMapperImpl.class
+com\turkcell\productservice\controllers\productscontroller.class
+com\turkcell\productservice\repositories\ProductRepositories.class
+com\turkcell\productservice\ProductserviceApplication.class
+com\turkcell\productservice\dtos\responses\ListProductResponse.class
